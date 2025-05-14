@@ -1,0 +1,28 @@
+params:
+  nepochs: 500
+  batch_size: 8
+  imgsz : 1280
+  lr0: 0.01
+  lrf: 0.01
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  hsv_h: 0.015  # Keep hue variations minimal
+  hsv_s: 0.5   # Moderate saturation change to handle different ball colors/lighting
+  hsv_v: 0.4  
+  degrees: 5.0   # Slight rotation (cricket balls don't rotate much in camera view)
+  translate: 0.2  # Higher translation to simulate ball movement across frame
+  scale: 0.6     # Significant scale variation for ball appearing at different distances
+  shear: 1.0     # Light shear distortion
+  perspective: 0.0005  # Slight perspective changes to simulate camera angle variations
+  flipud: 0.0    # No vertical flip needed for cricket scenarios
+  fliplr: 0.5    # Horizontal flip for left/right field coverage
+  
+  # Advanced augmentations
+  mosaic: 1.0    # Mosaic to help with small objects in varied contexts
+  mixup: 0.1     # Light mixup to improve generalization
+  copy_paste: 0.0
+  
+  # Motion blur (implement in preprocessing if not directly in YOLO)
