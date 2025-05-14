@@ -1,0 +1,6 @@
+2024-09-20 10:54:53,061 - INFO - Data Ingestion Pipeline Started
+2024-09-20 10:54:53,061 - INFO - sync folder from S3 started
+2024-09-20 10:55:00,556 - INFO - sync completed successfully
+2024-09-20 10:55:00,571 - INFO - Entered initiate_model_trainer method of ModelTrainer class
+2024-09-20 10:56:13,496 - INFO - Entered initiate_model_pusher method of ModelPusher class
+2024-09-20 10:58:46,692 - INFO - Model pushed successfully to experiment: agrix, run_id: faafab187ab74bc6bd935eec1099ada8

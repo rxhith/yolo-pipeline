@@ -1,0 +1,5 @@
+2024-09-20 10:45:54,072 - INFO - Data Ingestion Pipeline Started
+2024-09-20 10:45:54,072 - INFO - sync folder from S3 started
+2024-09-20 10:45:55,932 - INFO - sync completed successfully
+2024-09-20 10:45:55,932 - INFO - Entered initiate_model_trainer method of ModelTrainer class
+2024-09-20 10:46:02,509 - INFO - Entered initiate_model_pusher method of ModelPusher class

@@ -1,0 +1,17 @@
+ultralytics
+pandas
+dvc
+mlflow
+notebook 
+numpy
+python-box
+pyYAML
+tqdm
+ensure
+joblib
+types-PyYAML
+scipy
+fastapi[all]
+onnx
+boto3
+-e .

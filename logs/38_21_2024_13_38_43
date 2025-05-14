@@ -1,0 +1,7 @@
+2024-09-21 13:38:48,958 - INFO - Entered initiate_model_trainer method of ModelTrainer class
+2024-09-21 13:38:48,958 - INFO - Training started at: e:\agri\src\agrix\components\../../../artifacts/data_ingestion/data.yaml
+2024-09-21 13:39:57,255 - INFO - Training completed
+2024-09-21 13:39:57,255 - INFO - 
+2024-09-21 13:39:57,287 - INFO - model exporting started
+2024-09-21 13:39:58,469 - INFO - Entered initiate_model_pusher method of ModelPusher class
+2024-09-21 13:40:20,774 - INFO - Model pushed successfully to experiment: agrix, run_id: b3764e2aafbd44918e6652f8a31acf38

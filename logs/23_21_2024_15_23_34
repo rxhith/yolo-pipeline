@@ -1,0 +1,6 @@
+2024-09-21 15:23:39,310 - INFO - Entered initiate_model_trainer method of ModelTrainer class
+2024-09-21 15:23:39,310 - INFO - Training started at: e:\agri\src\agrix\components\../../../artifacts/data_ingestion/data.yaml
+2024-09-21 15:25:59,717 - INFO - Training completed
+2024-09-21 15:25:59,717 - INFO - 
+2024-09-21 15:25:59,748 - INFO - model exporting started
+2024-09-21 15:26:00,946 - INFO - Entered initiate_model_pusher method of ModelPusher class
